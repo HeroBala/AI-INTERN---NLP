@@ -28,6 +28,21 @@ The project is implemented in **Python** and can be run either as a script or in
 7. **Reporting** – Jupyter Notebook summary  
 
 ---
+## Project Repo Structure
+text-mining-job-posting/
+├── data/
+│ └── job_posting.docx # Sample job posting file (input)
+│
+├── notebooks/
+│ └── analysis.ipynb # Jupyter Notebook with EDA & results
+│
+├── src/
+│ └── pipeline.py # Main Python script / text mining pipeline
+│
+├── requirements.txt # List of Python dependencies
+├── README.md # Project description, setup & usage
+└── .gitignore # Git ignore rules
+
 
 ## 📦 Installation
 ```bash
